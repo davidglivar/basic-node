@@ -2,6 +2,7 @@
   "name": "basic-node",
   "version": "0.0.1",
   "description": "Basic Node constructor",
+  "homepage": "https://github.com/davidglivar/basic-node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,6 +10,13 @@
   },
   "author": "David Glivar <davidglivar@gmail.com>",
   "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidglivar/basic-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidglivar/basic-node/issues"
+  }
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-6to5": "^1.0.2",
