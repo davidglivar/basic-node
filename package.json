@@ -1,6 +1,6 @@
 {
   "name": "basic-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Basic Node constructor",
   "homepage": "https://github.com/davidglivar/basic-node",
   "main": "index.js",
@@ -16,7 +16,7 @@
   },
   "bugs": {
     "url": "https://github.com/davidglivar/basic-node/issues"
-  }
+  },
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-6to5": "^1.0.2",
