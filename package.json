@@ -1,6 +1,6 @@
 {
   "name": "basic-node",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Basic Node constructor",
   "homepage": "https://github.com/davidglivar/basic-node",
   "main": "index.js",
