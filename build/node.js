@@ -23,7 +23,9 @@ var Node = (function (EventEmitter) {
   _extends(Node, EventEmitter);
 
   Node.prototype.add = function (child, index) {
-    if (this.children.indexOf(child) >= 0 || !this.isNode) return false;
+    if (this.children.indexOf(child) >= 0 || !child.isNode || child.parent !== null || this.parent === child) {
+      return false;
+    }
     if (typeof index === "number") {
       this.children.splice(index, 0, child);
     } else {
@@ -36,7 +38,7 @@ var Node = (function (EventEmitter) {
 
   Node.prototype.remove = function (child) {
     var index = this.children.indexOf(child);
-    if (index < 0 || !this.isNode) return false;
+    if (index < 0 || !child.isNode) return false;
     this.children.splice(index, 1);
     child.parent = null;
     child.emit("removed");
