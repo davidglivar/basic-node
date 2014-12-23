@@ -5,7 +5,7 @@
   "homepage": "https://github.com/davidglivar/basic-node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/.bin/faucet",
     "build": "./node_modules/.bin/gulp"
   },
   "author": "David Glivar <davidglivar@gmail.com>",
@@ -18,8 +18,10 @@
     "url": "https://github.com/davidglivar/basic-node/issues"
   },
   "devDependencies": {
+    "faucet": "0.0.1",
     "gulp": "^3.8.10",
     "gulp-6to5": "^1.0.2",
-    "gulp-jshint": "^1.9.0"
+    "gulp-jshint": "^1.9.0",
+    "tape": "^3.0.3"
   }
 }
