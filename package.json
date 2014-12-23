@@ -5,6 +5,7 @@
   "homepage": "https://github.com/davidglivar/basic-node",
   "main": "index.js",
   "scripts": {
+    "pretest": "npm run build",
     "test": "./node_modules/.bin/faucet",
     "build": "./node_modules/.bin/gulp"
   },
